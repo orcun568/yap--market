@@ -6,9 +6,6 @@ import AddToCartButton from "./AddToCartButton";
 
 const prisma = new PrismaClient();
 
-export const metadata = {
-  title: "Işık Yapı  Ürün Detayı",
-};
 
 export default async function ProductDetail({ params }) {
   const product = await prisma.product.findUnique({

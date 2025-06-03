@@ -4,9 +4,7 @@ import { useEffect, useState } from 'react'
 import Navbar from '../../../components/Navbar'
 import SignOutButton from '../../../components/SignOutButton'
 
-export const metadata = {
-  title: "Işık Yapı Siparişlerim",
-};
+
 export default function OrdersPage() {
   const [orders, setOrders] = useState([])
   const [filteredOrders, setFilteredOrders] = useState([])

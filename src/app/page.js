@@ -2,9 +2,7 @@ import Navbar from '../../components/Navbar';
 import FeaturedProducts from '../../components/FeaturedProducts';
 import BKSlider from '../../components/Slider';
 
-export const metadata = {
-  title: "Işık Yapı",
-};
+
 
 export default function CartPage() {
   return (

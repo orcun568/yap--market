@@ -1,8 +1,6 @@
 import Navbar from "../../../components/Navbar";
 
-export const metadata = {
-  title: "Işık Yapı Sipariş Başarılı",
-};
+
 export default function OrderSuccess() {
     return (
         <div className="bg-gray-100 min-h-screen">

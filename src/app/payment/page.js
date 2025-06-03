@@ -5,9 +5,7 @@ import { useRouter, useSearchParams } from 'next/navigation';
 import Navbar from '../../../components/Navbar';
 
 
-export const metadata = {
-  title: "Işık Yapı Ödeme Sayfası",
-};
+
 export default function PaymentPage() {
   const [cardNumber, setCardNumber] = useState('');
   const [cardHolder, setCardHolder] = useState('');
