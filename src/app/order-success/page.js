@@ -1,4 +1,5 @@
 import Navbar from "../../../components/Navbar";
+import Link from "next/link";
 
 
 export default function OrderSuccess() {
@@ -27,12 +28,7 @@ export default function OrderSuccess() {
                     <p className="text-gray-700 mb-6 text-center">
                         Teşekkür ederiz. Siparişiniz başarıyla oluşturuldu.
                     </p>
-                    <a
-                        href="/"
-                        className="px-6 py-2 bg-green-600 border border-green-600 text-white rounded hover:bg-white  hover:text-green-600 transition-colors duration-300 text-center"
-                    >
-                        Ana sayfaya dön
-                    </a>
+                    <Link href="/">Anasayfa</Link>
                 </div>
             </div>
         </div>
